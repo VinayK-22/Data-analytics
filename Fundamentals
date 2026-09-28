@@ -1,0 +1,139 @@
+1. Understand the Business Problem
+
+Before touching the data, understand what question you need to answer.
+
+Example:
+
+Why did sales decrease this month?
+
+2. Data Collection
+
+Gather data from sources such as:
+
+SQL databases
+Excel/CSV files
+APIs
+Business applications
+Cloud platforms
+3. Data Cleaning
+
+Raw data usually contains problems.
+
+You need to handle:
+
+Missing values
+Duplicate records
+Incorrect data types
+Incorrect/inconsistent values
+Outliers
+Formatting problems
+
+Tools: Python, Pandas, SQL, Power Query
+
+4. Data Transformation
+
+Convert the cleaned data into a useful structure.
+
+Examples:
+
+Creating calculated columns
+Aggregating data
+Joining tables
+Filtering records
+Creating date fields
+Creating categories
+
+Tools: SQL, Python, Power Query, DAX
+
+5. Exploratory Data Analysis (EDA)
+
+This is where you investigate the data to discover patterns and relationships.
+
+You might ask:
+
+Which product sells the most?
+Which region generates the most revenue?
+What is the monthly sales trend?
+Who are the highest-value customers?
+Are sales increasing or decreasing?
+
+Tools: Python, Pandas, NumPy, SQL
+
+6. Statistical Fundamentals
+
+You don't need advanced statistics initially, but you should understand:
+
+Mean
+Median
+Mode
+Minimum/Maximum
+Range
+Variance
+Standard deviation
+Percentages
+Correlation
+Distributions
+Basic probability
+7. Data Visualization
+
+Convert analysis into charts that people can understand quickly.
+
+Common visualizations:
+
+Bar chart
+Line chart
+Pie/donut chart
+Scatter plot
+Histogram
+KPI cards
+Maps
+
+Tools: Power BI, Tableau, Python Matplotlib
+
+8. SQL
+
+SQL is one of the most important fundamentals for a Data Analyst.
+
+You should know:
+
+SELECT
+WHERE
+GROUP BY
+ORDER BY
+JOIN
+HAVING
+CASE
+Subqueries
+CTEs
+Window Functions
+Aggregate Functions
+9. Dashboarding & Reporting
+
+Present the results in an interactive and understandable way.
+
+For example, a Sales Dashboard could contain:
+
+Revenue       Orders       Customers
+₹25M          12,450       8,200
+
+        Monthly Sales Trend
+
+     Sales by Region
+     Sales by Product
+     Customer Analysis
+
+Power BI is especially useful here.
+
+10. Communicating Insights
+
+This is often overlooked.
+
+A Data Analyst shouldn't just say:
+
+"Sales were ₹25 million."
+
+You should explain:
+
+"Sales were ₹25 million, with 35% coming from the South region. Product A contributed the highest revenue, while sales declined in the last quarter."
+
+The goal is to turn data → insight → business action.
