@@ -1,4 +1,4 @@
-# Data-analytics pl300 microsoft
+
 # Data Analytics & Microsoft PL-300
 
 This repository contains my learning, practice, and hands-on work in **Data Analytics using Microsoft Power BI**, with a focus on preparation for the **Microsoft Certified: Power BI Data Analyst (PL-300)** certification.
