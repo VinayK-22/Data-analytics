@@ -1,0 +1,23 @@
+1. Import Mode 📥
+
+Import mode is a storage mode where Power BI copies data from the source into the Power BI model and stores it in a compressed, in-memory format for fast analysis.
+
+Keywords: Copy → Store → Compress → Fast
+
+2. DirectQuery 🔗
+
+DirectQuery is a storage mode where the data remains in the original data source, and Power BI sends queries to that source whenever data is needed.
+
+Keywords: Data stays in source → Query source
+
+3. Live Connection 🔌
+
+A live connection is a connection from a Power BI report to an existing semantic model, allowing the report to use that model instead of creating its own local data model.
+
+Keywords: Existing semantic model → Connect → Build report
+
+4. Composite Model ⭐
+
+A composite model is a Power BI model that combines multiple storage modes or source groups, such as Import and DirectQuery, within the same model.
+
+Keywords: Combination → Import + DirectQuery
