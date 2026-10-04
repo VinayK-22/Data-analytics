@@ -1,80 +1,42 @@
-1. Get data from sources
+Module 1
 
-Power BI can connect to sources such as:
-
-Excel
-CSV
-SQL Server
-MySQL
-Web/API
-SharePoint
-Cloud databases
-
-Example:
-
-Excel + SQL Server + CSV → Power BI
-
-2. Profile the data
-
-Before transforming it, you examine the data to understand its quality.
-
-You check:
-
-Data types
-Null/missing values
-Errors
-Duplicates
-Distribution of values
-Number of rows/columns
-3. Clean the data
-
-Using Power Query, you can:
-
-Remove duplicates
-Replace values
-Remove errors
-Handle null values
-Remove unnecessary columns
-Rename columns
-Change data types
-Split columns
-Merge columns
-
-For example:
-
-Raw Data
-
-Name       Age    City
-Vinay      23     Bangalore
-Rahul      null   Bangalore
-Vinay      23     Bangalore
-
-After cleaning:
-
-Name       Age    City
-Vinay      23     Bangalore
-Rahul      24     Bangalore
-4. Transform the data
-
-You may need to reshape the data before loading it into the model.
-
-Common transformations:
-
-Merge queries → combine columns from related tables
-Append queries → stack rows from similar tables
-Pivot / Unpivot
-Group By
-Filter rows
-Add calculated/custom columns
-5. Load the prepared data
-
-After transformation:
-
-Data Source → Power Query → Clean & Transform → Semantic Model
-
-Then you can create:
-
-Relationships
-Measures
-DAX calculations
-Reports and visualizations
+1.1 Get or connect to data
+⬜ Connect to data sources
+⬜ Connect to shared semantic models
+⬜ Data source settings
+⬜ Credentials
+⬜ Privacy levels
+⬜ Import
+⬜ DirectQuery
+⬜ DirectLake
+⬜ Create parameters
+⬜ Modify parameters
+1.2 Profile and clean
+⬜ Data statistics
+⬜ Column properties
+⬜ Column quality
+⬜ Column distribution
+⬜ Column profiling
+⬜ Identify inconsistencies
+⬜ Handle unexpected values
+⬜ Handle null values
+⬜ Resolve data-quality issues
+⬜ Resolve import errors
+1.3 Transform and load
+⬜ Data types
+⬜ Create columns
+⬜ Transform columns
+⬜ Group rows
+⬜ Aggregate rows
+⬜ Pivot
+⬜ Unpivot
+⬜ Transpose
+⬜ Convert semi-structured data to tables
+⬜ Fact tables
+⬜ Dimension tables
+⬜ Reference queries
+⬜ Duplicate queries
+⬜ Merge queries
+⬜ Append queries
+⬜ Keys
+⬜ Configure query loading
