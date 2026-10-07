@@ -1,0 +1,33 @@
+A. Design and implement a data model
+
+Table/column properties
+Relationships
+Cardinality
+Cross-filter direction
+Role-playing dimensions
+Common date table
+Calculated columns
+Calculated tables
+Semantic model design
+
+B. Create model calculations using DAX
+
+Measures
+Aggregations
+CALCULATE
+Time intelligence
+Statistical functions
+Semi-additive measures
+Quick measures
+Calculated columns/tables
+Calculation groups
+
+C. Optimize model performance
+
+Remove unnecessary rows/columns
+Performance Analyzer
+DAX Query View
+Poor-performing measures
+Poor-performing relationships
+Poor-performing visuals
+Reduce granularity
